@@ -1,0 +1,116 @@
+body{
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(./f1c179c1dda7f66e8b9fada9afe7c991.jpg);
+    background-size: cover;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 8px;
+    height: 20px;
+    width: 100px;
+    justify-content: center;
+    text-align: center;
+}
+    
+.div1 {
+    grid-column: span 4 / span 4;
+    border: 1px solid wheat;
+}
+
+.div2 {
+    grid-row-start: 2;
+}
+
+.div3 {
+    grid-row-start: 2;
+}
+
+.div4 {
+    grid-row-start: 2;
+}
+
+.div5 {
+    grid-row-start: 2;
+    background-color: rgb(67, 56, 7);
+}
+
+
+.div7 {
+    grid-row-start: 3;
+}
+
+.div8 {
+    grid-row-start: 3;
+}
+
+.div9 {
+    grid-row-start: 3;
+}
+
+
+.div11 {
+    grid-row-start: 4;
+}
+
+.div12 {
+    grid-row-start: 4;
+}
+
+.div13 {
+    grid-row-start: 4;
+}
+
+
+.div15 {
+    grid-row-start: 5;
+}
+
+.div16 {
+    grid-row-start: 5;
+}
+
+.div17 {
+    grid-row-start: 5;
+}
+
+.div18 {
+    grid-column: span 2 / span 2;
+    width: 200px;
+    background-color: rgb(119, 115, 68);
+
+}
+
+.div19 {
+    grid-column: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 6;
+    width: 200px;
+    background-color: rgb(67, 56, 7);
+}
+
+.div18 button{
+    width: 200px;
+}
+
+.div19 button{
+    width: 200px;
+}
+
+.child {
+    border-radius: 25px;
+    text-align: center;
+    height: 50px;
+}
+
+button{
+    background-color: transparent; 
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+    color: white;
+}
