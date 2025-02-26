@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh; 
+    background-image: url(https://i.pinimg.com/736x/f1/a5/64/f1a5640fe39cb3e00ec09929ad9a8ac5.jpg);
+    background-size: cover;
+    margin: 0px;
+}
+
+.container{
+    justify-content: center;
+    align-content: center;
+}
+
+form{
+    display: grid;
+    height: 350px;
+    width: 300px;
+    background-color: rgba(116, 159, 194, 0.664);
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: start;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.signup{
+    padding: 5px;
+}
+
+.button{
+    padding: 5px;
+}
+
+h1{
+    margin-top: 0%;
+}

@@ -1,0 +1,33 @@
+body{
+    background-image: url(https://wallpapers.com/images/hd/luffy-zoro-sjvh8fntqbx28sva.jpg);
+    background-size: cover;
+    margin: 0%;
+}
+
+#start{
+    display: flex;
+    background-color: rgba(65, 240, 199, 0.473);
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+i{
+    visibility: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(19, 19, 14);
+    padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    i {
+        visibility: visible;
+    }
+
+    a {
+        display: none;
+    }
+}

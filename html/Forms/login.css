@@ -1,0 +1,41 @@
+body{
+    background-image: url(https://i.pinimg.com/736x/98/10/5c/98105ca141a3feef75a6366321dc20a2.jpg);
+    color: rgb(248, 246, 246);
+    background-size: cover;
+    background-position: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+}
+
+.container{
+    background-color: rgba(1, 1, 8, 0.466);
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+ .Username{
+    padding: 10px;
+ }
+
+ .Password{
+    padding: 10px;
+ }
+
+ .button{
+    padding: 10px;
+ }
+
+ button{
+    background-color: rgba(3, 3, 45, 0.171);
+    color: aliceblue;
+ }
